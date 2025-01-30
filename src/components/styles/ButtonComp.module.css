@@ -1,0 +1,18 @@
+.ButtonComp {
+  width: 50px;
+  height: inherit;
+  border: none;
+  background: linear-gradient(
+    to right,
+    white,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.128)
+  );
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ButtonComp:hover {
+  scale: 1.1;
+}

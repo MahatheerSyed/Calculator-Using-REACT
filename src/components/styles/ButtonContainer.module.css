@@ -1,0 +1,11 @@
+.ButtonContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 10px;
+}
+.ButtonContainer button:last-child {
+  width: 200%;
+  padding: 5px;
+}
